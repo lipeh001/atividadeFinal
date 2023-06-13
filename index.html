@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <title>yStore</title>
+</head>
+<body>
+    <header class="header">
+        <div class="display-flex-header">
+            <div class="logo-topo">
+                <img src="img/ystore-logo.png" alt="" class="logo-img">
+            </div>
+            <li id="menu-ham"><a href="#" ><i class="bi bi-list" ></i></a></li>
+                <nav class="nav nav-o" id="nav-oculta">
+                    <ul class="header-flex-content">
+                        <div class="hover-select-header">
+                            <li><a href="#about">Início</a></li>
+                            <li><a href="#products">Produtos</a></li>
+                            <li><a href="#services">Serviços</a></li>
+                        </div>
+                        <li><a href="#login" class="login-header">Login</a></li>
+                    </ul>
+                </nav>
+                <div class="check">
+                    <input type="checkbox" id="muda">
+                    <label for="muda">
+                        <i class="bi bi-moon-fill"></i>
+                        <i class="bi bi-brightness-high"></i>
+                    </label>
+                </div>
+        </div>
+    </header>
+    <section class="login-section">
+        <div class="login-section-center">
+            <div class="about-login-section">
+                <h1>Sobre nós</h1>
+                <p>Só aqui na yStore você encontra plugins para seu servidor com 100% de garantia na qualidade e seus dados totalmente protegidos.</p>
+            </div>
+            <form class="login-area">
+                <h2>Faça seu login</h2>
+                <div class="label-input-login">
+                    <label for="username">Usuario</label>
+                    <input type="text" name="user" id="username">
+                    <label for="password">Senha</label>
+                    <input type="password" name="pass" id="password">
+                </div>
+                <div class="login-button-center">
+                    <input type="button" value="Logar-se" class="login-button">
+                </div>
+            </form>
+        </div>
+    </section>
+    <section class="itens-buy">
+        <div class="itens-buy-center">
+            <div class="itens-buy-1024 itens-buy-780">
+                <article>
+                        <img src="img/plugins.png" alt="bau plugins">
+                        <h1>yVips</h1>
+                        <p>Menus e mensagens configuráveis. Suporte a BungeeCord. Sistema de Tipos de VIP: BASIC, ONLINE, SERVER. Opção de executar sons, partículas e efeitos ao ativar um vip</p>
+                        <a href="#">Ver Detalhes</a>
+                </article>
+                <article>    
+                        <img src="img/plugins.png" alt="bau plugins">
+                        <h1>yEconomias</h1>
+                        <p>Crie quantas economias quiser. Configure todas as mensagens, subcomandos, comandos e menus das economias. Permite gerenciar players offline. Sistema de top em chat</p>
+                        <a href="#">Ver Detalhes</a>
+                </article>
+            </div>
+            <div class="itens-buy-1024 itens-buy-780">
+                <article>
+                        <img src="img/plugins.png" alt="bau plugins">
+                        <h1>yPassRewards</h1>
+                        <p>Mensagens configuráveis. Crie quantos calendários de recompensas quiser. Sistema paginado. Sistema de recompensa por dia. Sistema de top em chat. Sistema de tag para o mais rico</p>
+                        <a href="#">Ver Detalhes</a>
+                </article>
+                <article>
+                        <img src="img/plugins.png" alt="bau plugins">
+                        <h1>yBossArena</h1>
+                        <p>Mensagens configuráveis. Crie quantos bosses quiser. Sistema paginado. Sistema de top. Sistema de recompensas armazenadas. Sistema de amuletos</p>
+                        <a href="#">Ver Detalhes</a>
+                </article>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <nav class="footer-info">
+            <div>
+                <img src="img/ystore-logo.png" alt="" class="logo-img">
+            </div>
+            <div>
+                <ul>
+                    <li>Copyright © 2020-2023 Todos os direitos reservados para yStore</li>
+                </ul>
+            </div>
+        </nav>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
